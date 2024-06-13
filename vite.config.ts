@@ -7,6 +7,10 @@ export default defineConfig({
   resolve: {
     alias: {
       "@": path.resolve(__dirname, "./src"),
+      "@auth0/auth0-react": path.resolve(
+        __dirname,
+        "./node_modules/@auth0/auth0-react"
+      ),
     },
   },
 });
