@@ -1,4 +1,4 @@
-import { Auth0Provider, AppState } from "@auth0/auth0-react";
+import { Auth0Provider,User, AppState } from "@auth0/auth0-react";
 
 type Props = {
     children: React.ReactNode;
